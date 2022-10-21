@@ -16,8 +16,6 @@ import (
 	"github.com/openconfig/kne/topo/node"
 )
 
-var ixiaResource = "Ixiatgs"
-
 func New(nodeImpl *node.Impl) (node.Node, error) {
 	if nodeImpl == nil {
 		return nil, fmt.Errorf("nodeImpl cannot be nil")
